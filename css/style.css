@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    cursor: none;
+}
+
+#game-screen {
+    /* border-inline: 1px dashed white; */
+    image-rendering: pixelated;
+    height: 100vh;
+}
