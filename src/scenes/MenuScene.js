@@ -1,4 +1,4 @@
-import { CtxUtils } from './src/utils/CtxUtils.js';
+import { CtxUtils } from '../src/utils/CtxUtils.js';
 
 export class MenuScene {
     constructor(sceneManager, inputHandler, assets){
