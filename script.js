@@ -1,8 +1,8 @@
-import { AssetLoader } from '/src/utils/AssetLoader.js';
-import { CtxUtils } from '/src/utils/CtxUtils.js';
-import { MenuScene } from '/src/scenes/MenuScene.js';
-import { GamePlayScene } from '/src/scenes/GamePlayScene.js';
-import { InputHandler } from '/src/components/InputHandler.js';
+import { AssetLoader } from './src/utils/AssetLoader.js';
+import { CtxUtils } from './src/utils/CtxUtils.js';
+import { MenuScene } from './src/scenes/MenuScene.js';
+import { GamePlayScene } from './src/scenes/GamePlayScene.js';
+import { InputHandler } from './src/components/InputHandler.js';
 
 const canvas = document.querySelector('#game-screen');
 canvas.width = 64 * 3;
