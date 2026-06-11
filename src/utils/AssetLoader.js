@@ -9,7 +9,7 @@ export class AssetLoader{
     loadImage(key, src){
         this.totalAssets++;
         const img = new Image();
-        img.src = '/assets/images/' + src;
+        img.src = './assets/images/' + src;
         img.onload = ()=>{
             this.loadedAssets++;
         };
